@@ -1,0 +1,51 @@
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  background: #fff8f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.mode-buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  background: #f60;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mode-buttons button.active {
+  background: #ff6600;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 15px;
+  width: 100%;
+  background: #ff6600;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.response-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-left: 4px solid #ff6600;
+  text-align: left;
+  white-space: pre-wrap;
+}
